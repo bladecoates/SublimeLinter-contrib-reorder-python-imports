@@ -2,7 +2,7 @@ This is a template. For "how to make a linter", please check [the HOWTO](HOWTO.m
 
 -----------------------------------------------------------------
 
-SublimeLinter-contrib-reorder_python_imports
+SublimeLinter-contrib-reorder-python-imports
 ================================
 
 [![Build Status](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-reorder-python-imports.svg?branch=master)](https://travis-ci.org/SublimeLinter/SublimeLinter-contrib-reorder-python-imports)
