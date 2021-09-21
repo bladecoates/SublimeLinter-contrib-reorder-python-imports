@@ -1,10 +1,11 @@
-from SublimeLinter.lint import Linter  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
+from SublimeLinter.lint import (
+    PythonLinter,
+)  # or NodeLinter, PythonLinter, ComposerLinter, RubyLinter
 
 
-class __class__(Linter):
-    cmd = '__cmd__'
-    regex = r''
+class ReorderPythonImports(PythonLinter):
+    cmd = ('reorder_python_imports', '--py36-plus')
     multiline = False
-    defaults = {
-        'selector': 'source.python'
-    }
+    defaults = {'selector': 'source.python'}
+    regex = r''
+    tempfile_suffix = '-'
